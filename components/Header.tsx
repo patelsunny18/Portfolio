@@ -1,20 +1,27 @@
+import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function Header() {
+    const [expanded, setExpanded] = useState(false);
+
     return (
-        <Navbar className="myred" fixed='top' expand="md">
+        <Navbar
+            id='header'
+            fixed='top'
+            expand="md"
+            expanded={expanded}
+        >
             <Container>
-                <Navbar.Brand href="#home">SP</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Brand href="#" onClick={() => setExpanded(false)}>Sp.</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => { setExpanded(expanded ? false : "expanded"); }} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#projects" onClick={() => setExpanded(false)}>Projects</Nav.Link>
+                        <Nav.Link href="#about" onClick={() => setExpanded(false)}>About</Nav.Link>
+                        <Nav.Link href="#contact" onClick={() => setExpanded(false)}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
