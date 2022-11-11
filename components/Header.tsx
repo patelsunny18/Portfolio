@@ -15,7 +15,7 @@ export default function Header() {
             expanded={expanded}
         >
             <Container>
-                <Navbar.Brand href="#" onClick={() => setExpanded(false)}>Sp.</Navbar.Brand>
+                <Navbar.Brand href="#" onClick={() => { setExpanded(false); removeClass() }}>Sp.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => { setExpanded(expanded ? false : "expanded"); }} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
@@ -27,4 +27,13 @@ export default function Header() {
             </Container>
         </Navbar>
     );
+}
+
+function removeClass() {
+    let nav = document.getElementsByClassName('navbar-nav')[0].children;
+    for (let i = 0; i < nav.length; i++) {
+        if (nav[i].classList.contains('active')) {
+            nav[i].classList.remove('active');
+        }
+    }
 }
