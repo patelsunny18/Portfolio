@@ -8,6 +8,10 @@ html, body {
     /* font-family: 'Source Code Pro', monospace; */
 }
 
+#__next {
+    background-color: #121212;
+}
+
 /* For navbar */
 #header {
     backdrop-filter: blur(15px);
@@ -44,13 +48,14 @@ html, body {
     padding-top: 56px;
     font-family: 'League Spartan', sans-serif;
     color: white;
-    background-color: #121212;
+    /* background-color: #121212; */
+    margin: 0 9em 0;
 }
 
 #hero {
     width: 100%;
     height: 500px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .section_container {

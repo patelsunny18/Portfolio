@@ -1,10 +1,21 @@
+// import Image from 'next/image'
 import React from 'react'
+import { Col, Container, Image, Row } from 'react-bootstrap'
+import headshot from '../public/headshot.jpg';
 
 export default function Hero() {
   return (
     <section id='hero'>
-        <h1>Hero</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem architecto sed, velit consequatur commodi ab eaque, aut aliquid cum quo nemo fugiat dolore facere voluptatum odio, consequuntur totam quam. Consectetur.</p>
+      <Container fluid>
+        <Row>
+          <Col md={7}>
+            <h1>Hello</h1>
+          </Col>
+          <Col md={5}>
+            <h1>Sunny</h1>
+          </Col>
+        </Row>
+      </Container>
     </section>
   )
 }
