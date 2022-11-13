@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Row } from 'react-bootstrap';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -15,11 +16,22 @@ export default function Home() {
             </Head>
             <Header></Header>
             {/* <Particle></Particle> */}
-            <main id='main'>
-                <Hero></Hero>
-                <Projects></Projects>
-                <About></About>
-                <Contact></Contact>
+            <main id='main' className="container-fluid">
+                <Row>
+                    <Hero />
+                </Row>
+
+                <Row>
+                    <Projects />
+                </Row>
+
+                <Row>
+                    <About />
+                </Row>
+
+                <Row>
+                    <Contact />
+                </Row>
             </main>
             <Footer></Footer>
         </>

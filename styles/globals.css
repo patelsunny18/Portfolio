@@ -3,13 +3,34 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     /* font-family: 'League Spartan', sans-serif; */
     /* font-family: 'Source Code Pro', monospace; */
 }
 
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex {
+    color: #0D192D;
+}
+
+.My-Color-Theme-2-hex {
+    color: #91FCDC;
+}
+
+.My-Color-Theme-3-hex {
+    color: #CED7F3;
+}
+
+.My-Color-Theme-4-hex {
+    color: #8A93AD;
+}
+
+.My-Color-Theme-5-hex {
+    color: #121212;
+}
+
 #__next {
-    background-color: #121212;
+    background-color: #0D192D;
 }
 
 /* For navbar */
@@ -39,8 +60,12 @@ html, body {
     color: white;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link.active, .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active:hover {
-    color: #4af626 !important;
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link.active {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active:hover {
+    color: #91FCDC !important;
 }
 
 #main {
@@ -48,42 +73,33 @@ html, body {
     padding-top: 56px;
     font-family: 'League Spartan', sans-serif;
     color: white;
-    /* background-color: #121212; */
-    margin: 0 9em 0;
+    padding: 150px 20% 0;
 }
 
+#main>.row {
+    padding-bottom: 20%;
+}
 
 /* **************** */
 /* For hero section */
 /* **************** */
-#hero {
-    width: 100%;
-    height: 500px;
-    padding: 5%;
-}
-
-.hero-container {
-    height: 100%;
-}
-
-.hero-container .row {
-    height: 100%;
-}
-
-.hero-img {
+.row .col-md-5 .headshot-container {
     position: relative;
-    width: 100%;
+    width: 60%;
+    border-radius: 50%;
 }
 
-.hero-img::after {
+.row .col-md-5 .headshot-container::after {
     content: "";
     display: block;
     padding-bottom: 100%;
 }
 
-.hero-img img {
+.row .col-md-5 .headshot-container .fit-image {
     position: absolute;
-    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .section_container {

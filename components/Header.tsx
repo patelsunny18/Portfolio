@@ -15,7 +15,7 @@ export default function Header() {
             expanded={expanded}
         >
             <Container>
-                <Navbar.Brand href="#" onClick={() => { setExpanded(false); removeClass() }}>Sp.</Navbar.Brand>
+                <Navbar.Brand href="#" onClick={() => { setExpanded(false); removeClass() }}>sunny.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => { setExpanded(expanded ? false : "expanded"); }} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
