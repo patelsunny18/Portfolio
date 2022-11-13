@@ -26,12 +26,12 @@ html, body {
 }
 
 .My-Color-Theme-5-hex {
-    color: #121212;
+    color: #14223E;
 }
 
-#__next {
+/* #__next {
     background-color: #0D192D;
-}
+} */
 
 /* **************** */
 /*   For navbar     */
@@ -47,7 +47,9 @@ html, body {
 }
 
 .navbar-toggler {
-    background-color: white !important;
+    background-color: transparent !important;
+    /* backdrop-filter: blur(15px) !important; */
+    border: none !important;
     color: white !important;
 }
 
@@ -78,7 +80,7 @@ html, body {
 }
 
 #main>.row {
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 
 /* **************** */
@@ -103,6 +105,9 @@ html, body {
     object-fit: cover;
 }
 
+/* ********************** */
+/* For content conatiners */
+/* ********************** */
 .section-container {
     position: relative;
 }
@@ -142,16 +147,48 @@ html, body {
 }
 
 .projects {
-    padding: 5% 15% 0;
+    padding: 5% 5% 0;
 }
 
 .projects .col .card {
     border: none;
     border-radius: 0;
+    height: 100%;
 }
 
 .projects .col .card img {
     border-radius: 0;
+}
+
+.projects .col .card .card-body {
+    background-color: #14223E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects .col .card .card-body .card-title {
+    color: #CED7F3 !important;
+}
+
+.projects .col .card .card-body .card-text {
+    color: #8A93AD;
+}
+
+.projects .col .card .card-body .card-text svg {
+    margin-right: 8%;
+    color: #91FCDC;
+}
+
+.projects .col .card .card-body .card-button {
+    text-align: center;
+}
+
+.projects .col .card .card-body .card-button .btn {
+    background-color: transparent;
+    color: #91FCDC;
+    border-color: #91FCDC;
 }
 
 /* ******************* */
