@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import headshot from '../public/headshot.jpg';
-import headshot_transparent from '../public/headshot-transparent.png';
 
 export default function Hero() {
   return (

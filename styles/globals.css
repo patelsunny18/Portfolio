@@ -33,7 +33,9 @@ html, body {
     background-color: #0D192D;
 }
 
-/* For navbar */
+/* **************** */
+/*   For navbar     */
+/* **************** */
 #header {
     backdrop-filter: blur(15px);
 }
@@ -72,7 +74,6 @@ html, body {
     height: 100%;
     padding-top: 56px;
     font-family: 'League Spartan', sans-serif;
-    color: white;
     padding: 150px 10% 0;
 }
 
@@ -102,9 +103,37 @@ html, body {
     object-fit: cover;
 }
 
-.section_container {
+.section-container {
     position: relative;
 }
+
+.section-container .section-heading {
+    color: #CED7F3 !important;
+}
+
+.section-container h2 {
+    font-weight: 600;
+    font-size: clamp(26px, 5vw, 32px);
+    position: relative;
+}
+
+.section-container h2 span {
+    background: #0D192D;
+    padding-right: 10px;
+}
+
+.section-container h2::after {
+    display: inline-block;
+    content: "";
+    border-top: 0.09rem solid #91fcdc83;
+    width: 20%;
+    margin: 0.3em 1rem;
+    transform: translate(-1rem);
+}
+
+/* ******************* */
+/* For project section */
+/* ******************* */
 
 #projects {
     position: absolute;
@@ -112,12 +141,22 @@ html, body {
     left: 0px;
 }
 
-#projects_content {
-    width: 100%;
-    height: 500px;
-    text-align: center;
+.projects {
+    padding: 5% 15% 0;
 }
 
+.projects .col .card {
+    border: none;
+    border-radius: 0;
+}
+
+.projects .col .card img {
+    border-radius: 0;
+}
+
+/* ******************* */
+/* For about section   */
+/* ******************* */
 #about {
     position: absolute;
     top: -56px;
