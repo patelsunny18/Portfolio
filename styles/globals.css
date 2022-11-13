@@ -73,7 +73,7 @@ html, body {
     padding-top: 56px;
     font-family: 'League Spartan', sans-serif;
     color: white;
-    padding: 150px 20% 0;
+    padding: 150px 10% 0;
 }
 
 #main>.row {
@@ -85,7 +85,7 @@ html, body {
 /* **************** */
 .row .col-md-5 .headshot-container {
     position: relative;
-    width: 60%;
+    width: 80%;
     border-radius: 50%;
 }
 

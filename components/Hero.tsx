@@ -26,7 +26,7 @@ export default function Hero() {
 
           <p style={{
             color: '#8A93AD',
-            fontSize: 'clamp(16px, 5vw, 20px)'
+            fontSize: 'clamp(18px, 4vw, 20px)'
           }}>A 4th year CS student at the University of Saskatchewan.<br></br>I have a passion for everything technology and design, from software engineering to UI/UX. When I am not programming, I enjoy trying out new coffee spots in the city and skateboard by the river. <br></br><br></br>Currently on the lookout for my first oppurtunity!</p>
         </Col>
         <Col md={5}>
