@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import { Col, Container, Row, Button, Card } from 'react-bootstrap'
-import { FaNode, FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaCode } from 'react-icons/fa'
+import { FaNode, FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaCode, FaDocker } from 'react-icons/fa'
 import { SiMaterialui, SiMongodb, SiMysql } from "react-icons/si";
 
 import yelpcamp from '../public/yelpcamp.png';
@@ -21,7 +21,7 @@ export default function Projects() {
                 A web app that allows users to create, explore, and review campgrounds all over the world. To create and review campgrounds, users must first create an account.
                 <br /><br />
                 Made with:<br />
-                <FaNode size={'1.5em'} color={'#91FCDC'} /><FaJsSquare size={'1.5em'} /><FaHtml5 size={'1.5em'} /><FaBootstrap size={'1.5em'} /><SiMongodb size={'1.5em'} />
+                <FaNode size={'1.5em'} /><FaJsSquare size={'1.5em'} /><FaHtml5 size={'1.5em'} /><FaBootstrap size={'1.5em'} /><SiMongodb size={'1.5em'} />
               </Card.Text>
               <div className="card-button">
                 <a href="https://github.com/patelsunny18/YelpCamp" target={'_blank'} rel="noreferrer" className="btn btn-primary">Code <FaCode /></a>
@@ -39,7 +39,7 @@ export default function Projects() {
                 A learning version of the popular web app Wordle. The user has six attempts to guess a five-letter word. Every 24 hours, a new word is generated.
                 <br /><br />
                 Made with:<br />
-                <FaNode size={'1.5em'} color={'#91FCDC'} /><FaJsSquare size={'1.5em'} /><FaHtml5 size={'1.5em'} /><FaCss3Alt size={'1.5em'} />
+                <FaNode size={'1.5em'} /><FaJsSquare size={'1.5em'} /><FaHtml5 size={'1.5em'} /><FaCss3Alt size={'1.5em'} />
               </Card.Text>
               <div className="card-button">
                 <a href="https://github.com/patelsunny18/hurdle" target={'_blank'} rel="noreferrer" className="btn btn-primary">Code <FaCode /></a>
@@ -75,7 +75,7 @@ export default function Projects() {
                 My first CRUD-based website, which I created for a class project. The user can perform CRUD operations in order to maintain staff and donors at a local blood donation camp. Made with both, MySQL and MongoDB Atlas.
                 <br /><br />
                 Made with:<br />
-                <FaHtml5 size={'1.5em'} /><FaCss3Alt size={'1.5em'} /><FaJsSquare size={'1.5em'} /><SiMongodb size={'1.5em'} /><SiMysql size={'1.5em'} />
+                <FaHtml5 size={'1.5em'} /><FaCss3Alt size={'1.5em'} /><FaJsSquare size={'1.5em'} /><SiMongodb size={'1.5em'} /><SiMysql size={'1.5em'} /><FaDocker size={'1.5em'} />
               </Card.Text>
               <div className="card-button">
                 <a href="https://github.com/patelsunny18/CMPT-353/tree/main/Project" target={'_blank'} rel="noreferrer" className="btn btn-primary">Code <FaCode /></a>
