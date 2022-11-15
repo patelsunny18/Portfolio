@@ -280,15 +280,44 @@ html, body {
     left: 0px;
 }
 
-#contact_content {
-    width: 100%;
-    height: 500px;
+.contact {
+    padding-top: 5%;
+}
+
+.contact .col .contact-text {
+    color: #8A93AD;
     text-align: center;
 }
 
-#footer {
+.contact .col .socials {
     width: 100%;
-    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.contact .col .socials a {
+    color: #8A93AD;
+    border: none;
+    font-size: clamp(30px, 4vw, 35px);
+    padding: 0;
+    margin-right: 20px;
+}
+
+.contact .col .email-button {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.539);
+    margin-top: 2%;
+}
+
+.contact .col .email-button .btn {
+    font-family: 'Source Code Pro', monospace;
+    background-color: transparent;
+    border-color: #91FCDC;
+    color: #91FCDC;
+}
+
+.contact .col .email-button .btn a {
+    color: #91FCDC;
+    text-decoration: none;
 }
