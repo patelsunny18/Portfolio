@@ -15,7 +15,7 @@ export default function Home() {
                 <title>Sunny Patel | Portfolio</title>
             </Head>
             <Header></Header>
-            <Particle></Particle>
+            {/* <Particle></Particle> */}
             <main id='main' className="container-fluid">
                 <Row>
                     <Hero />

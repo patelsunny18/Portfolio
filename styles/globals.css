@@ -29,9 +29,9 @@ html, body {
     color: #14223E;
 }
 
-/* #__next {
+#__next {
     background-color: #0D192D;
-} */
+}
 
 /* **************** */
 /*   For navbar     */
@@ -48,7 +48,6 @@ html, body {
 
 .navbar-toggler {
     background-color: transparent !important;
-    /* backdrop-filter: blur(15px) !important; */
     border: none !important;
     color: white !important;
 }
@@ -86,19 +85,35 @@ html, body {
 /* **************** */
 /* For hero section */
 /* **************** */
-.row .col-md-5 .headshot-container {
+.hero-container .hello-text {
+    color: #91FCDC;
+    font-family: 'Source Code Pro', monospace;
+    font-size: clamp(14px, 4vw, 16px);
+}
+
+.hero-container .name-heading {
+    color: #CED7F3;
+    font-size: clamp(40px, 8vw, 80px);
+}
+
+.hero-container .intro-text {
+    color: #8A93AD;
+    font-size: clamp(18px, 4vw, 20px);
+}
+
+.row .col-md-5 .illustration-container {
     position: relative;
     width: 80%;
     border-radius: 50%;
 }
 
-.row .col-md-5 .headshot-container::after {
+.row .col-md-5 .illustration-container::after {
     content: "";
     display: block;
     padding-bottom: 100%;
 }
 
-.row .col-md-5 .headshot-container .fit-image {
+.row .col-md-5 .illustration-container .illustration {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -200,12 +215,65 @@ html, body {
     left: 0px;
 }
 
-#about_content {
-    width: 100%;
-    height: 500px;
-    text-align: center;
+.about {
+    padding: 5% 5% 0;
 }
 
+.headshot-container {
+    position: relative;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.headshot-container::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.headshot-container .headshot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .col-md-7 p {
+    color: #8A93AD;
+    font-size: clamp(18px, 4vw, 20px);
+}
+
+.about .col-md-7 ul {
+    color: #8A93AD;
+    font-size: clamp(13px, 4vw, 15px);
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0;
+    overflow: hidden;
+    list-style: none;
+    text-align: left;
+}
+
+.about .col-md-7 li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about .col-md-7 li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: #91FCDC;
+}
+
+
+/* ********************* */
+/* For contact section   */
+/* ********************* */
 #contact {
     position: absolute;
     top: -56px;
