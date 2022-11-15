@@ -29,10 +29,6 @@ html, body {
     color: #14223E;
 }
 
-#__next {
-    background-color: #0D192D;
-}
-
 /* **************** */
 /*   For navbar     */
 /* **************** */
@@ -346,4 +342,5 @@ html, body {
     color: #8A93AD;
     height: auto;
     min-height: 70px;
+    backdrop-filter: blur(15px);
 }

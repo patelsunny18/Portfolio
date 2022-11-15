@@ -7,15 +7,18 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Particle from '../components/Particle';
 import Projects from '../components/Projects';
+import logo from '../sun.svg';
 
 export default function Home() {
     return (
         <>
             <Head>
                 <title>Sunny Patel | Portfolio</title>
+
+                <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
             <Header></Header>
-            {/* <Particle></Particle> */}
+            <Particle></Particle>
             <main id='main' className="container-fluid">
                 <Row>
                     <Hero />

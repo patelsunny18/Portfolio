@@ -15,7 +15,7 @@ export default function Contact() {
           </h3>
 
           <div className="socials">
-            <a href='https://www.instagram.com' target={'_blank'} rel="noreferrer">
+            <a href='https://www.instagram.com/patel_sunny18/' target={'_blank'} rel="noreferrer">
               <BsInstagram />
             </a>
 
