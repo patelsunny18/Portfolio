@@ -16,7 +16,7 @@ export default function Header() {
         >
             <Container>
                 <Navbar.Brand href="#" onClick={() => { setExpanded(false); removeClass() }}>sunny.</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => { setExpanded(expanded ? false : "expanded"); }} />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => { setExpanded(expanded ? false : true); }} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#projects" onClick={() => setExpanded(false)}>Projects</Nav.Link>

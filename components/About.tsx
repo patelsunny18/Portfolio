@@ -24,10 +24,9 @@ export default function About() {
               Hello! My name is Sunny Patel. Born and raised in India and I am currently enrolled in four-year Bachelor of Computer Science at the University of Saskatchewan.
             </p>
             <p>
-              My first encounter with a computer took place when I was 10 years old and my father brought home our first PC. Since then, I've been fascinated by how computers worked, and now, at the age of 22, I'm still fascinated and privileged to learn about the vast world of computers and the internet of things.
-            </p>
+              {"My first encounter with a computer took place when I was 10 years old and my father brought home our first PC. Since then, I've been fascinated by how computers worked, and now, at the age of 22, I'm still fascinated and privileged to learn about the vast world of computers and the internet of things."}</p>
             <p>
-              I'm particularly interested in developing responsive and interactive front-ends, as well as secure and robust back-ends, along with designing familiar and intuitive UI/UX and human-computer interaction.
+              {"I'm particularly interested in developing responsive and interactive front-ends, as well as secure and robust back-ends, along with designing familiar and intuitive UI/UX and human-computer interaction."}
             </p>
             <p>
               My skillset includes:
