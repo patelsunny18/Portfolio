@@ -206,6 +206,10 @@ html, body {
     border-color: #91FCDC;
 }
 
+.projects .col .card .card-body .card-button .btn:hover {
+    background-color: #64ffda1a;
+}
+
 /* ******************* */
 /* For about section   */
 /* ******************* */
@@ -292,7 +296,7 @@ html, body {
 .contact .col .socials {
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-top: 5%;
 }
@@ -303,6 +307,10 @@ html, body {
     font-size: clamp(30px, 4vw, 35px);
     padding: 0;
     margin-right: 20px;
+}
+
+.contact .col .socials a:hover {
+    color: #91FCDC;
 }
 
 .contact .col .email-button {
@@ -317,7 +325,25 @@ html, body {
     color: #91FCDC;
 }
 
+.contact .col .email-button .btn:hover {
+    background-color: #64ffda1a;
+}
+
 .contact .col .email-button .btn a {
     color: #91FCDC;
     text-decoration: none;
+}
+
+/* ********** */
+/* For footer */
+/* ********** */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    color: #8A93AD;
+    height: auto;
+    min-height: 70px;
 }
