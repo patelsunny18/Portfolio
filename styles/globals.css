@@ -302,7 +302,7 @@ html, body {
     border: none;
     font-size: clamp(30px, 4vw, 35px);
     padding: 0;
-    margin-right: 20px;
+    margin: 0 2%;
 }
 
 .contact .col .socials a:hover {

@@ -13,6 +13,7 @@ export default function Header() {
             fixed='top'
             expand="md"
             expanded={expanded}
+            variant="dark"
         >
             <Container>
                 <Navbar.Brand href="#" onClick={() => { setExpanded(false); removeClass() }}>sunny.</Navbar.Brand>

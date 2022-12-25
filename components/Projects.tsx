@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <Container fluid className="section-container">
       <div id='projects' />
-      <h2 className="section-heading"><span>{"Things I've build"}</span></h2>
+      <h2 className="section-heading"><span>{"Things I've built"}</span></h2>
       <Row xs={1} md={2} className="g-5 projects">
         <Col>
           <Card>
