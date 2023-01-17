@@ -90,7 +90,7 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Crossy Survivor</Card.Title>
               <Card.Text>
-                A 3D crossover of Crossy Road and Vampire Survivor as a part of the Game Mechanic course. You gotta survive in a fast-paced, endless running, roguelike shoot 'em up and  kill every boss in your way! 
+                A 3D crossover of Crossy Road and Vampire Survivor as a part of the Game Mechanic course. You gotta survive in a fast-paced, endless running, roguelike shoot &apos;em up and  kill every boss in your way! 
                 <br /><br />
                 Made with:<br />
                 <SiUnity size={'1.5em'} /><SiCsharp size={'1.5em'} />
