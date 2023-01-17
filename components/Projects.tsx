@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react'
 import { Col, Container, Row, Button, Card } from 'react-bootstrap'
 import { FaNode, FaJsSquare, FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaCode, FaDocker } from 'react-icons/fa'
-import { SiMaterialui, SiMongodb, SiMysql } from "react-icons/si";
+import { SiMaterialui, SiMongodb, SiMysql, SiUnity, SiCsharp } from "react-icons/si";
 
 import yelpcamp from '../public/yelpcamp.png';
 
@@ -18,13 +18,31 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>YelpCamp</Card.Title>
               <Card.Text>
-                A web app that allows users to create, explore, and review campgrounds all over the world. To create and review campgrounds, users must first create an account.
+                A web application for campground reviews and information. Implemented user authentication, authorization and comments feature.
                 <br /><br />
                 Made with:<br />
-                <FaNode size={'1.5em'} /><FaJsSquare size={'1.5em'} /><FaHtml5 size={'1.5em'} /><FaBootstrap size={'1.5em'} /><SiMongodb size={'1.5em'} />
+                <FaHtml5 size={'1.5em'} /><FaBootstrap size={'1.5em'} /><FaJsSquare size={'1.5em'} /><FaNode size={'1.5em'} /><SiMongodb size={'1.5em'} />
               </Card.Text>
               <div className="card-button">
                 <a href="https://github.com/patelsunny18/YelpCamp" target={'_blank'} rel="noreferrer" className="btn btn-primary">Code <FaCode /></a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col>
+          <Card>
+            <Card.Img variant="top" src="/shifty.png" />
+            <Card.Body>
+              <Card.Title>Shifty</Card.Title>
+              <Card.Text>
+                A full-stack web application for restaurant scheduling as a part of Intermediate Software Engineering class. Implemented employee availability input, shift swapping, time-off requests, schedule sharing and conflict resolution features.
+                <br /><br />
+                Made with:<br />
+                <FaHtml5 size={'1.5em'} /><FaBootstrap size={'1.5em'} /><FaJsSquare size={'1.5em'} /><FaNode size={'1.5em'} /><SiMongodb size={'1.5em'} />
+              </Card.Text>
+              <div className="card-button">
+                <a href="https://github.com/patelsunny18/Shifty" target={'_blank'} rel="noreferrer" className="btn btn-primary">Code <FaCode /></a>
               </div>
             </Card.Body>
           </Card>
@@ -46,7 +64,7 @@ export default function Projects() {
               </div>
             </Card.Body>
           </Card>
-        </Col>
+        </Col>  
 
         <Col>
           <Card>
@@ -54,13 +72,31 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Color Palette Generator</Card.Title>
               <Card.Text>
-                My first large-scale ReactJS project. The user can add and remove colour palettes based on values such as RGB and Hex. Once created, the user can copy various colour shades to the clipboard.
+                My first large-scale ReactJS project. A responsive web-based color palette generator powered with color gradient generation, color picker and ability to save color palette.
                 <br /><br />
                 Made with:<br />
                 <FaReact size={'1.5em'} /><FaBootstrap size={'1.5em'} /><SiMaterialui size={'1.5em'} />
               </Card.Text>
               <div className="card-button">
                 <a href="https://github.com/patelsunny18/ReactColorPaletteGenerator" target={'_blank'} rel="noreferrer" className="btn btn-primary">Code <FaCode /></a>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>  
+
+        <Col>
+          <Card>
+            <Card.Img variant="top" src="/crossy_survivor.png" />
+            <Card.Body>
+              <Card.Title>Crossy Survivor</Card.Title>
+              <Card.Text>
+                A 3D crossover of Crossy Road and Vampire Survivor as a part of the Game Mechanic course. You gotta survive in a fast-paced, endless running, roguelike shoot 'em up and  kill every boss in your way! 
+                <br /><br />
+                Made with:<br />
+                <SiUnity size={'1.5em'} /><SiCsharp size={'1.5em'} />
+              </Card.Text>
+              <div className="card-button">
+                <a href="https://github.com/patelsunny18/Crossy-Survivor/tree/main/Cmpt306_Project" target={'_blank'} rel="noreferrer" className="btn btn-primary">Code <FaCode /></a>
               </div>
             </Card.Body>
           </Card>

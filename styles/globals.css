@@ -169,6 +169,8 @@ html, body {
 
 .projects .col .card img {
     border-radius: 0;
+    width: 100%;
+    height: 32vh;
 }
 
 .projects .col .card .card-body {
