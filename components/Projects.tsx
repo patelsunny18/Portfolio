@@ -106,7 +106,7 @@ export default function Projects() {
           <Card>
             <Card.Img variant="top" src="/cmpt353_project.png" />
             <Card.Body>
-              <Card.Title>CMPT 353 Project</Card.Title>
+              <Card.Title>Blood Donation Camp</Card.Title>
               <Card.Text>
                 My first CRUD-based website, which I created for a class project. The user can perform CRUD operations in order to maintain staff and donors at a local blood donation camp. Made with both, MySQL and MongoDB Atlas.
                 <br /><br />
