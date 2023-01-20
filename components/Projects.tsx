@@ -14,7 +14,9 @@ export default function Projects() {
       <Row xs={1} md={2} className="g-5 projects">
         <Col>
           <Card>
-            <Card.Img variant="top" src="/yelpcamp.png" />
+            <a href="https://github.com/patelsunny18/YelpCamp" target={'_blank'} rel="noreferrer">
+              <Card.Img variant="top" src="/yelpcamp.png" />
+            </a>
             <Card.Body>
               <Card.Title>YelpCamp</Card.Title>
               <Card.Text>
@@ -32,7 +34,9 @@ export default function Projects() {
 
         <Col>
           <Card>
-            <Card.Img variant="top" src="/shifty.png" />
+            <a href="https://github.com/patelsunny18/Shifty" target={'_blank'} rel="noreferrer">
+              <Card.Img variant="top" src="/shifty.png" />
+            </a>
             <Card.Body>
               <Card.Title>Shifty</Card.Title>
               <Card.Text>
@@ -50,7 +54,9 @@ export default function Projects() {
 
         <Col>
           <Card>
-            <Card.Img variant="top" src="/hurdle.png" />
+            <a href="https://github.com/patelsunny18/hurdle" target={'_blank'} rel="noreferrer">
+              <Card.Img variant="top" src="/hurdle.png" />
+            </a>
             <Card.Body>
               <Card.Title>Hurdle</Card.Title>
               <Card.Text>
@@ -64,11 +70,13 @@ export default function Projects() {
               </div>
             </Card.Body>
           </Card>
-        </Col>  
+        </Col>
 
         <Col>
           <Card>
-            <Card.Img variant="top" src="/colorPicker.png" />
+            <a href="https://github.com/patelsunny18/ReactColorPaletteGenerator" target={'_blank'} rel="noreferrer">
+              <Card.Img variant="top" src="/colorPicker.png" />
+            </a>
             <Card.Body>
               <Card.Title>Color Palette Generator</Card.Title>
               <Card.Text>
@@ -82,15 +90,17 @@ export default function Projects() {
               </div>
             </Card.Body>
           </Card>
-        </Col>  
+        </Col>
 
         <Col>
           <Card>
-            <Card.Img variant="top" src="/crossy_survivor.png" />
+            <a href="https://github.com/patelsunny18/Crossy-Survivor/tree/main/Cmpt306_Project" target={'_blank'} rel="noreferrer">
+              <Card.Img variant="top" src="/crossy_survivor.png" />
+            </a>
             <Card.Body>
               <Card.Title>Crossy Survivor</Card.Title>
               <Card.Text>
-                A 3D crossover of Crossy Road and Vampire Survivor as a part of the Game Mechanic course. You gotta survive in a fast-paced, endless running, roguelike shoot &apos;em up and  kill every boss in your way! 
+                A 3D crossover of Crossy Road and Vampire Survivor as a part of the Game Mechanic course. You gotta survive in a fast-paced, endless running, roguelike shoot &apos;em up and  kill every boss in your way!
                 <br /><br />
                 Made with:<br />
                 <SiUnity size={'1.5em'} /><SiCsharp size={'1.5em'} />
@@ -104,7 +114,9 @@ export default function Projects() {
 
         <Col>
           <Card>
-            <Card.Img variant="top" src="/cmpt353_project.png" />
+            <a href="https://github.com/patelsunny18/CMPT-353/tree/main/Project" target={'_blank'} rel="noreferrer">
+              <Card.Img variant="top" src="/cmpt353_project.png" />
+            </a>
             <Card.Body>
               <Card.Title>Blood Donation Camp</Card.Title>
               <Card.Text>
