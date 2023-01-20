@@ -67,9 +67,9 @@ html, body {
 }
 
 .navbar-nav .resume-btn {
-    background-color: transparent;
-    color: #91FCDC;
-    border-color: #91FCDC;
+    background-color: transparent !important;
+    color: #91FCDC !important;
+    border-color: #91FCDC !important;
     max-width: 5em;
     height: 2.5em;
     display: flex;
@@ -78,9 +78,9 @@ html, body {
 }
 
 .navbar-nav .resume-btn:visited, .navbar-nav .resume-btn:active {
-    background-color: transparent;
+    background-color: transparent !important;
     color: #91FCDC !important;
-    border-color: #91FCDC;
+    border-color: #91FCDC !important;
 }
 
 .navbar-nav .resume-btn:hover {
