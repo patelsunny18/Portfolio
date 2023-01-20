@@ -17,9 +17,13 @@ export default function Hero() {
             Sunny Patel.
           </h1>
 
+          <h2 className="hero-text">
+            Coder & Designer
+          </h2>
+
           <p className="intro-text">A 4th year CS student at the University of Saskatchewan.<br></br>I have a passion for everything technology and design, from software engineering to UI/UX. When I am not programming, I enjoy trying out new coffee spots and skateboard around the city. <br></br><br></br>Currently on the lookout for my first oppurtunity!</p>
         </Col>
-        <Col md={5}>
+        <Col>
           <div className="illustration-container m-auto">
             <Image
               src={illustration}
