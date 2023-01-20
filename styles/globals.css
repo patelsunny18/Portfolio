@@ -49,7 +49,7 @@ html, body {
 }
 
 .navbar-nav {
-    margin-right: 20%;
+    margin-right: 30%;
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
 }
@@ -65,6 +65,29 @@ html, body {
 
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active:hover {
     color: #91FCDC !important;
+}
+
+.navbar-nav .resume-btn {
+    background-color: transparent;
+    color: #91FCDC;
+    border-color: #91FCDC;
+    max-width: 5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .resume-btn:visited, .navbar-nav .resume-btn:active {
+    background-color: transparent;
+    color: #91FCDC !important;
+    border-color: #91FCDC;
+}
+
+.navbar-nav .resume-btn:hover {
+    background-color: #64ffda1a;
+    color: #91FCDC;
+    border-color: #91FCDC;
 }
 
 #main {
