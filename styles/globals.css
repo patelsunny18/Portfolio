@@ -183,11 +183,112 @@ html, body {
     left: 0px;
 }
 
-.projects {
-    padding: 5% 5% 0;
+.project {
+    padding: 5%;
 }
 
-.projects .col .card {
+.project-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.project-image .image {
+    width: 100%;
+    height: 100%;
+    position: relative !important;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project:nth-of-type(2n+1) .project-content {
+    position: relative;
+    left: 18%;
+    margin-left: -18%;
+}
+
+.project:nth-of-type(2n) .project-content {
+    margin-right: -18%;
+    position: relative;
+    right: 18%;
+}
+
+.project:nth-of-type(2n+1) {
+    text-align: left;
+}
+
+.project:nth-of-type(2n) {
+    text-align: right;
+}
+
+.project .project-title {
+    margin-bottom: 5%;
+}
+
+.project .project-title a {
+    color: #CED7F3 !important;
+    font-size: clamp(24px, 5vw, 28px);
+    text-decoration: none;
+}
+
+.project .project-title a:hover {
+    color: #91FCDC !important;
+}
+
+.project .project-description {
+    color: #8A93AD;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #14223E;
+    font-size: 18px;
+}
+
+.project:nth-of-type(2n+1) .project-tech-list {
+    justify-content: flex-start;
+}
+
+.project:nth-of-type(2n) .project-tech-list {
+    justify-content: flex-end;
+}
+
+.project .project-tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.project:nth-of-type(2n+1) .project-tech-list li {
+    margin: 0px 20px 5px 0px;
+}
+
+.project:nth-of-type(2n) .project-tech-list li {
+    margin: 0px 0px 5px 20px;
+}
+
+.project .project-tech-list li {
+    color: #8A93AD;
+    white-space: nowrap;
+    margin: 0px 20px 5px 0px;
+}
+
+.project-button .btn {
+    background-color: transparent;
+    padding: 0;
+    color: #8A93AD;
+}
+
+.project-button .btn:hover {
+    background-color: transparent;
+    color: #91FCDC;
+}
+
+/* .projects .col .card {
     border: none;
     border-radius: 0;
     height: 100%;
@@ -232,7 +333,7 @@ html, body {
 
 .projects .col .card .card-body .card-button .btn:hover {
     background-color: #64ffda1a;
-}
+} */
 
 /* ******************* */
 /* For about section   */
