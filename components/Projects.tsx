@@ -1,32 +1,8 @@
-import Image from 'next/image';
-import React, { useState, useEffect } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import { SiGithub } from "react-icons/si";
-
-import yelpcamp from '../public/yelpcamp.png';
-import shifty from '../public/shifty.png';
-import hurdle from '../public/hurdle.png';
-import colorPicker from '../public/colorPicker.png';
-import crossy_survivor from '../public/crossy_survivor.png';
-import cmpt353_project from '../public/cmpt353_project.png';
-import NormalProjectCard from './NormalProjectCard';
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import NormalProjectCard from './ProjectCard';
 
 export default function Projects() {
-
-  const [isMobile, setIsMobile] = useState(false);
-
-  const handleResize = () => {
-    if (window.innerWidth < 769) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  }
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-  })
-
   return (
     <Container fluid className="section-container">
       <div id='projects' />

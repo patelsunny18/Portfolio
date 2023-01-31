@@ -15,7 +15,7 @@ interface propsInterface {
 export default function NormalProjectCard(props: propsInterface) {
     return (
         <Row className="project" style={props.alternate ? {flexDirection: 'row-reverse'} : {flexDirection: 'row'}}>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={7}>
                 <div className="project-image">
                     <a href={props.link} target={'_blank'} rel="noreferrer">
                         <Image
