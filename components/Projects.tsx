@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import NormalProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard';
 
 export default function Projects() {
   return (
@@ -8,7 +8,7 @@ export default function Projects() {
       <div id='projects' />
       <h2 className="section-heading"><span>{"Things I've built"}</span></h2>
 
-      <NormalProjectCard
+      <ProjectCard
         title={'YelpCamp'}
         image_src='/yelpcamp.png'
         link={'https://github.com/patelsunny18/YelpCamp'}
@@ -17,7 +17,7 @@ export default function Projects() {
         alternate={false}
       />
 
-      <NormalProjectCard
+      <ProjectCard
         title='Shifty'
         image_src='/shifty.png'
         link='https://github.com/patelsunny18/Shifty'
@@ -26,7 +26,7 @@ export default function Projects() {
         alternate={true}
       />
 
-      <NormalProjectCard
+      <ProjectCard
         title='Hurdle'
         image_src='/hurdle.png'
         link='https://github.com/patelsunny18/hurdle'
@@ -35,7 +35,7 @@ export default function Projects() {
         alternate={false}
       />
 
-      <NormalProjectCard
+      <ProjectCard
         title='Color Palette Generator'
         image_src='/colorPicker.png'
         link='https://github.com/patelsunny18/ReactColorPaletteGenerator'
@@ -44,7 +44,7 @@ export default function Projects() {
         alternate={true}
       />
 
-      <NormalProjectCard
+      <ProjectCard
         title='Crossy Survivor'
         image_src='/crossy_survivor.png'
         link='https://github.com/patelsunny18/Crossy-Survivor/tree/main/Cmpt306_Project'
@@ -53,7 +53,7 @@ export default function Projects() {
         alternate={false}
       />
 
-      <NormalProjectCard
+      <ProjectCard
         title='Blood Donation Camp'
         image_src='/cmpt353_project.png'
         link='https://github.com/patelsunny18/CMPT-353/tree/main/Project'
