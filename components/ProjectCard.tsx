@@ -23,8 +23,7 @@ export default function NormalProjectCard(props: propsInterface) {
                             src={props.image_src}
                             alt={`A screenshot of ${props.title} homepage`}
                             className="image"
-                            fill
-                            sizes='(max-width: 1200px) 100vw, (max-width: 768px) 50vw, 33vw'
+                            fill                            
                         />
                     </a>
                 </div>
