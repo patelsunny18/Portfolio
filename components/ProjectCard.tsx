@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { Col, Row } from 'react-bootstrap'
 import { SiGithub } from "react-icons/si";
+import CSS from 'csstype';
 
 interface propsInterface {
     title: string;
@@ -14,7 +15,7 @@ interface propsInterface {
 
 export default function NormalProjectCard(props: propsInterface) {
     return (
-        <Row className="project" style={props.alternate ? { flexDirection: 'row-reverse' } : { flexDirection: 'row' }}>
+        <Row className="project" style={props.alternate ? { flexDirection: 'row-reverse', textAlign: 'left' } : { flexDirection: 'row', textAlign: 'right' }}>
             <Col xs={12} md={7}>
                 <div className="project-image">
                     <a href={props.link} target={'_blank'} rel="noreferrer">
@@ -23,29 +24,29 @@ export default function NormalProjectCard(props: propsInterface) {
                             alt={`A screenshot of ${props.title} homepage`}
                             className="image"
                             fill
-                            sizes='(max-width: 768px) 100vw, 33vw'
+                            sizes='(max-width: 1200px) 100vw, (max-width: 768px) 50vw, 33vw'
                         />
                     </a>
                 </div>
             </Col>
             <Col>
-                <div className="project-content">
+                <div className="project-content" style={props.alternate ? { position: 'relative', left: '18%', marginLeft: '-18%' } : { position: 'relative', right: '18%', marginRight: '-18%' }}>
                     <h3 className="project-title">
                         <a href={props.link} target={'_blank'} rel="noreferrer">{props.title}</a>
                     </h3>
                     <div className="project-description">
                         <p>{props.description}</p>
                     </div>
-                    <ul className="project-tech-list">
+                    <ul className="project-tech-list" style={props.alternate ? { justifyContent: 'flex-start', width: '90%' } : { justifyContent: 'flex-end'}}>
                         {props.tech_list.map(i => (
-                            <li key={i}>{i}</li>
+                            <li key={i} style={props.alternate ? { margin: '0px 20px 5px 0px' } : { margin: '0px 0px 5px 20px' }}>{i}</li>
                         ))}
                     </ul>
                     <div className="project-button">
-                        <a href={props.link} target={'_blank'} rel="noreferrer" className="btn"><SiGithub size={'1.5em'} /></a>
+                        <a href={props.link} target={'_blank'} rel="noreferrer" className="btn"><SiGithub size={'2em'} /></a>
                     </div>
                 </div>
             </Col>
-        </Row>
+        </Row >
     )
 }

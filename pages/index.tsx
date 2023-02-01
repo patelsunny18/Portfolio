@@ -18,7 +18,7 @@ export default function Home() {
                 <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
             <Header></Header>
-            {/* <Particle></Particle> */}
+            <Particle></Particle>
             <main id='main' className="container-fluid">
                 <Row>
                     <Hero />
