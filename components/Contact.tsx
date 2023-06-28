@@ -7,14 +7,14 @@ import { motion, Variants } from 'framer-motion';
 const scrollAnimationVariant: Variants = {
   hidden: {
     opacity: 0,
-    y: '200'
+    y: '180'
   },
   show: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 1,
-      ease: [0.455, 0.030, 0.515, 0.955]
+      ease: [0.250, 0.460, 0.450, 0.940]
     }
   }
 }

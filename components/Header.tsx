@@ -23,7 +23,7 @@ export default function Header() {
                         <Nav.Link href="#projects" onClick={() => setExpanded(false)}>Projects</Nav.Link>
                         <Nav.Link href="#about" onClick={() => setExpanded(false)}>About</Nav.Link>
                         <Nav.Link href="#contact" onClick={() => setExpanded(false)}>Contact</Nav.Link>
-                        <Nav.Link href="/Sunny Patel resume.pdf" target={'_blank'} rel="noreferrer" className="btn resume-btn">Resume</Nav.Link>
+                        <Nav.Link href="/Resume - Sunny Patel.pdf" target={'_blank'} rel="noreferrer" className="btn resume-btn">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

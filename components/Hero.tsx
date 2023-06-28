@@ -12,10 +12,10 @@ const containerVariants: Variants = {
   show: {
     opacity: 1,
     transition: {
-      duration: 0.8,
-      ease: [0.455, 0.030, 0.515, 0.955],
+      duration: 0.7,
+      ease: [0.250, 0.460, 0.450, 0.940],
       when: 'beforeChildren',
-      staggerChildren: 0.3
+      staggerChildren: 0.4
     }
   }
 }
@@ -30,7 +30,7 @@ const childVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.5,
-      ease: [0.455, 0.030, 0.515, 0.955],
+      ease: [0.250, 0.460, 0.450, 0.940],
     }
   }
 }
@@ -59,7 +59,7 @@ export default function Hero() {
             Coder & Designer
           </motion.h2>
 
-          <motion.p variants={childVariants} className="intro-text">A 4th year CS student at the University of Saskatchewan.<br></br>I have a passion for everything technology and design, from software engineering to UI/UX. When I am not programming, I enjoy trying out new coffee spots and skateboard around the city. <br></br><br></br>Currently on the lookout for my first oppurtunity!</motion.p>
+          <motion.p variants={childVariants} className="intro-text">I{"'"}m a recent gradute from the University of Saskatchewan, fueled by a deep passion for technology and design. From software engineering to UI/UX, I am driven to explore and innovate. When I{"'"}m not programming, you{"'"}ll find me exploring new coffee spots and skateboarding through the city.<br></br><br></br>Eagerly seeking my first opportunity!</motion.p>
         </MotionCol>
 
         <MotionCol
