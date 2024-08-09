@@ -59,7 +59,7 @@ export default function Hero() {
             Coder & Designer
           </motion.h2>
 
-          <motion.p variants={childVariants} className="intro-text">I{"'"}m a recent gradute from the University of Saskatchewan, fueled by a deep passion for technology and design. From software engineering to UI/UX, I am driven to explore and innovate. When I{"'"}m not programming, you{"'"}ll find me exploring new coffee spots and skateboarding through the city.<br></br><br></br>Eagerly seeking my first opportunity!</motion.p>
+          <motion.p variants={childVariants} className="intro-text">I{"'"}m a gradute from the University of Saskatchewan, fueled by a deep passion for technology and design. From software engineering to UI/UX, I am driven to explore and innovate.<br></br><br></br>Eagerly seeking my first opportunity!</motion.p>
         </MotionCol>
 
         <MotionCol

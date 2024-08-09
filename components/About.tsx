@@ -44,10 +44,10 @@ export default function About() {
           <Col md={7}>
             <div>
               <p>
-                Hello! My name is Sunny Patel. Born and raised in India and I am currently enrolled in a four-year Bachelor of Science in Computer Science at the University of Saskatchewan.
+                Hello! My name is Sunny Patel, a graduate from the University of Saskatchewan with a Bachelor of Science in Computer Science.
               </p>
               <p>
-                {"My earliest experience with a computer took place when I was 10 years old when my father brought home our first PC. Since then, I've been fascinated by how computers worked, and now, at the age of 23, I'm still fascinated and privileged to learn about the vast world of computers and the internet of things."}</p>
+                {"My earliest experience with a computer took place when I was 10 years old when my father brought home our first PC. Since then, I've been fascinated by how computers worked, and now, at the age of 24, I'm still fascinated and privileged to learn about the vast world of computers and the internet of things."}</p>
               <p>
                 {"I'm particularly interested in developing responsive and interactive front-ends, as well as secure and robust back-ends, along with designing familiar and intuitive UI/UX and human-computer interaction."}
               </p>
@@ -60,14 +60,18 @@ export default function About() {
               <li>Python</li>
               <li>C</li>
               <li>Javascript</li>
+              <li>C#</li>
               <li>Node.js</li>
               <li>Express</li>
               <li>React</li>
               <li>TypeScript</li>
+              <li>PHP</li>
               <li>Next.JS</li>
               <li>Bootstrap</li>
               <li>MySQL</li>
               <li>MongoDB</li>
+              <li>WordPress</li>
+              <li>Tailwind</li>
             </ul>
           </Col>
         </Row>

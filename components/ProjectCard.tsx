@@ -10,7 +10,8 @@ interface propsInterface {
     link: string;
     description: string;
     tech_list: string[];
-    alternate: boolean
+    alternate: boolean;
+    github: boolean
 }
 
 export default function NormalProjectCard(props: propsInterface) {
@@ -41,7 +42,7 @@ export default function NormalProjectCard(props: propsInterface) {
                             <li key={i} style={props.alternate ? { margin: '0px 20px 5px 0px' } : { margin: '0px 0px 5px 20px' }}>{i}</li>
                         ))}
                     </ul>
-                    <div className="project-button">
+                    <div className="project-button" style={props.github ? { visibility: 'hidden' } : { visibility: 'visible' }}>
                         <a href={props.link} target={'_blank'} rel="noreferrer" className="btn"><SiGithub size={'2em'} /></a>
                     </div>
                 </div>
